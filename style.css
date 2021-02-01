@@ -1,0 +1,67 @@
+/************* feuille de style spécifique à la page ****************/
+
+body {
+    background-image: url(photos/photo-cover.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 100px;
+}
+
+.jumbotron {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.jumbotron :nth-child(4) {
+    font-style: oblique;
+    font-size: 1.1rem;
+}
+
+.btn {
+    background-color: wheat;
+    border: none;
+}
+
+.btn a {
+    color: black;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.panel {
+    border: solid 1px black;
+    text-align: center;
+}
+ .panel h3 {
+     background-color: rgba(130, 65, 0, 0.9);
+     color: whitesmoke;
+     padding: 5px;
+     margin: 0;
+ }
+ .panel-body {
+     display: flex;
+     background-color: whitesmoke;
+     align-items: center;
+ }
+
+ .panel-body img {
+     width: 50%;
+ }
+
+ #panel  {
+    display: flex;
+    flex-direction: column;
+ }
+
+ #panel :nth-child(1) {
+     font-weight: 800;
+     padding: 20px;
+ }
+
+ #footer {
+    position: fixed;
+    bottom: 0;
+    background-color: whitesmoke;
+}
