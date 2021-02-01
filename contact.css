@@ -37,6 +37,7 @@ body {
 
  #valeurs label {
      margin-top: 50px;
+     text-align: center;
  }
 
 #question {
@@ -71,14 +72,3 @@ body {
      color: black;
      transition: all 1s ease;
  }
-
- /* footer ***********************************************/
-#footer {
-    position: fixed;
-    bottom: 0;
-    background-color: whitesmoke;
-}
-
-#row-footer {
-    text-align: center;
-}

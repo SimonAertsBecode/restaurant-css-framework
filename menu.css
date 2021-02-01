@@ -46,10 +46,3 @@ body {
     background-color: none;
     border-radius: 20px;
 }
-
-#footer {
-    position: fixed;
-    bottom: 0;
-    background-color: whitesmoke;
-    margin: 0;
-}

@@ -59,9 +59,3 @@ body {
      font-weight: 800;
      padding: 20px;
  }
-
- #footer {
-    position: fixed;
-    bottom: 0;
-    background-color: whitesmoke;
-}

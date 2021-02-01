@@ -59,13 +59,3 @@ body {
      font-style: oblique;
      font-weight: 700;
  }
-
- #footer {
-    position: fixed;
-    bottom: 0;
-    background-color: whitesmoke;
-}
-
-#row-footer {
-    text-align: center;
-}
